@@ -9,4 +9,4 @@ Route::get('/', function () {
 
 
 
-Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');

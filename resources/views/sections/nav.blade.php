@@ -57,7 +57,7 @@
         </details>
       </li>
       <li><a>About</a></li>
-      <li><a>Contact</a></li>
+      <li><a href="{{ route('contact') }}">Contact</a></li>
       <li><a>Blog</a></li>
     </ul>
   </div>
