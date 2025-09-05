@@ -35,7 +35,7 @@
           </ul>
         </li>
         <li><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="{{ route('contact') }}">Contact</a></li>
         <li><a>Blog</a></li>
       </ul>
     </div>
@@ -62,6 +62,6 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn btn-vio">Hubungi Kami</a>
+    <a class="btn btn-vio">Hubungi </a>
   </div>
 </div>
