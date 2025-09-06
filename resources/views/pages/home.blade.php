@@ -4,6 +4,124 @@
 
 
        <!-- home our project -->
+
+        <div class=" flex-1 rounded-2xl shadow-lg relative pb-24 bg-cover bg-center" style="background-image: url('https://digitaliz.net/images/hero-1.png');">
+            <div class="p-8 md:p-12 min-h-[400px] flex items-center">
+                <div class="grid md:grid-cols-2 gap-8 items-center w-full">
+                    <div class="text-center md:text-left">
+                        <h1 class="text-4xl md:text-5xl font-bold text-violet-950 leading-tight">
+                            Accelerate Your Business
+                        </h1>
+                        <p class="mt-4 text-gray-500 text-lg">
+                            Digitalisasi bisnis Anda dengan cepat dan mudah bersama kami
+                        </p>
+                        <a href="#" class="mt-8 inline-block bg-violet-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-violet-700 transition duration-300 transform hover:scale-105">
+                            Hubungi Kami
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="absolute -bottom-12 left-1/2 -translate-x-1/2 w-full max-w-3xl px-4">
+            <div class="bg-violet-600 text-white p-8 rounded-3xl shadow-xl">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <span class="text-4xl font-bold">100+</span>
+                        <span class="mt-2 text-violet-200 flex items-center gap-2 text-sm">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Projects Finished
+                        </span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-4xl font-bold">32+</span>
+                        <span class="mt-2 text-violet-200 flex items-center gap-2 text-sm">
+                            <i class="fa-solid fa-users"></i>
+                            Loyal Clients
+                        </span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="text-4xl font-bold">28</span>
+                        <span class="mt-2 text-violet-200 flex items-center gap-2 text-sm">
+                            <i class="fa-solid fa-user-tie"></i>
+                            Talented Members
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <section class="mt-40 pt-16 pb-16 px-8 md:px-12 bg-white rounded-3xl shadow-lg">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div class="text-center md:text-left">
+                    <h2 class="text-4xl font-bold text-violet-950">About Us</h2>
+                    <p class="mt-2 text-lg text-violet-600">Trusted by many company in various fields</p>
+                    <p class="mt-8 text-gray-500 leading-relaxed">
+                        Digitaliz adalah sebuah agensi kreatif yang berfokus pada layanan pembuatan website, desain grafis, fotografi, dan videografi untuk berbagai kebutuhan bisnis dan organisasi.
+                    </p>
+                    <p class="mt-4 text-gray-500 leading-relaxed">
+                        Digitaliz mengedepankan inovasi dan kreativitas dalam setiap proyek yang dikerjakan, serta menggunakan teknologi dan tren desain terbaru untuk menghasilkan karya berkualitas tinggi yang dapat memenuhi kebutuhan dan tujuan klien. Dengan tim profesional yang berpengalaman dan layanan konsultasi yang ramah, Digitaliz siap memberikan solusi terbaik bagi Anda.
+                    </p>
+                </div>
+                <div class="relative w-full h-64 md:h-80 bg-gray-200 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
+                    <img src="https://digitaliz.net/images/video-thumbnail.png" alt="Video Placeholder" class="absolute inset-0 w-full h-full object-cover">
+                    <button class="absolute bg-white/80 backdrop-blur-sm text-violet-600 rounded-full w-16 h-16 flex items-center justify-center text-3xl shadow-lg hover:scale-110 transition-transform duration-300">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    <section class="mt-24 py-16">
+            <div class="text-center">
+                <h2 class="text-4xl font-extrabold text-gray-900">Our Services</h2>
+                 <p class="mt-2 text-xl text-indigo-600">Find our services that suit your company's needs</p>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="group bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center hover:bg-violet-600 hover:shadow-2xl hover:-translate-y-1 hover:scale-110  transition-all duration-300">
+                <div class="bg-indigo-100 text-indigo-600 rounded-xl p-4 inline-block transition-colors duration-300 group-hover:bg-white group-hover:text-indigo-600">
+                    <i class="fa-solid fa-layer-group text-3xl"></i>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-white">Digital Platform Development</h3>
+                <p class="mt-4 text-gray-600 flex-grow transition-colors duration-300 group-hover:text-indigo-200">
+                    Layanan pengembangan digital platform untuk membantu bisnis dan organisasi dapat eksis secara online dengan cara yang efektif.
+                </p>
+                <a href="3" class="mt-8 inline-flex items-center gap-2 text-violet-600 font-semibold border-2 border-violet-200 rounded-lg py-2 px-5 bg-white transition-all duration-300 group-hover:bg-violet-700 group-hover:border-white group-hover:text-white">
+                    Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center hover:bg-violet-600 hover:shadow-2xl hover:-translate-y-1 hover:scale-110 transition duration-300 ease-in-out">
+                <div class="bg-pink-100 text-pink-600 rounded-xl p-4 inline-block transition-colors duration-300 group-hover:bg-white group-hover:text-pink-600">
+                    <i class="fa-solid fa-mobile-screen-button text-3xl"></i>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-white">Creative Content Management</h3>
+                <p class="mt-4 text-gray-600 flex-grow transition-colors duration-300 group-hover:text-indigo-200">
+                    Layanan kreatif untuk memenuhi kebutuhan konten klien, termasuk pembuatan video promosi, fotografi dan desain grafis.
+                </p>
+                <a href="#" class="mt-8 inline-flex items-center gap-2 text-violet-600 font-semibold border-2 border-violet-200 rounded-lg py-2 px-5 bg-white transition-all duration-300 group-hover:bg-violet-700 group-hover:border-white group-hover:text-white">
+                    Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="group bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center hover:bg-violet-600 hover:shadow-2xl hover:-translate-y-1 hover:scale-110 transition-all duration-300">
+                <div class="bg-fuchsia-100 text-fuchsia-600 rounded-xl p-4 inline-block transition-colors duration-300 group-hover:bg-white group-hover:text-fuchsia-600">
+                    <i class="fa-solid fa-bullhorn text-3xl"></i>
+                </div>
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-white">Digital Marketing Strategy</h3>
+                <p class="mt-4 text-gray-600 flex-grow transition-colors duration-300 group-hover:text-indigo-200">
+                    Layanan digital marketing untuk membantu bisnis dan organisasi dalam mempromosikan dan memasarkan merk mereka secara online.
+                </p>
+                <a href="#" class="mt-8 inline-flex items-center gap-2 text-violet-600 font-semibold border-2 border-violet-200 rounded-lg py-2 px-5 bg-white transition-all duration-300 group-hover:bg-violet-700 group-hover:border-white group-hover:text-white">
+                    Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            </div>
+    </section>
+
     <section class="px-10 pt-10 ">
         <div class="text-center mb-10">
             <h1 class="font-bold text-3xl sm:text-4xl text-gray-800">OUR PROJECT</h1>
@@ -38,11 +156,11 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
 
                 <!-- Card 1 -->
-                <div class="group w-96 shadow-none">
+                <div class="group w-96 shadow-none flex flex-col h-full">
                     <div class="card-bg">
                         <figure class="px-10 pt-10">
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src="https://digitaliz.net/icons/icon-1.png"
                             alt="Shoes"
                             class="rounded-xl" />
                         </figure>
@@ -59,11 +177,11 @@
                 </div>
 
                 <!-- Card 2 -->
-                <div class="group w-96 shadow-none">
+                <div class="group w-96 shadow-none flex flex-col h-full">
                     <div class="card-bg">
                         <figure class="px-10 pt-10">
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src="https://digitaliz.net/icons/icon-2.png"
                             alt="Shoes"
                             class="rounded-xl" />
                         </figure>
@@ -80,11 +198,11 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="group w-96 shadow-none">
-                    <div class="card-bg">
+                <div class="group w-96 shadow-none flex flex-col h-full">
+                    <div class="card-bg ">
                         <figure class="px-10 pt-10">
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            src="https://digitaliz.net/icons/icon-3.png"
                             alt="Shoes"
                             class="rounded-xl" />
                         </figure>
