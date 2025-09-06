@@ -11,7 +11,7 @@
                     <div class="grid md:grid-cols-2 gap-8 items-center w-full">
                         <div class="text-center md:text-left">
                             <h1 class="text-4xl md:text-5xl font-bold text-violet-950 leading-tight">
-                                Accelerate Your Business
+                                Accelerate Your
                             </h1>
                             <p class="mt-4 text-gray-500 text-lg">
                                 Digitalisasi bisnis Anda dengan cepat dan mudah bersama kami
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="absolute -bottom-12 left-1/2 -translate-x-1/2 w-full max-w-3xl px-4">
                 <div class="bg-violet-600 text-white p-8 rounded-3xl shadow-xl">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -52,7 +52,7 @@
                 </div>
             </div>
        </section>
-       
+
        <section class="px-10 pt-10">
             <div class="mt-40 pt-16 pb-16 px-8 md:px-12 bg-white rounded-3xl shadow-lg">
             <div class="grid md:grid-cols-2 gap-12 items-start">
@@ -75,7 +75,7 @@
             </div>
         </div>
        </section>
-        
+
 
     {{-- CARD --}}
     <section class="py-16 px-4">
