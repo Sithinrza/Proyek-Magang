@@ -19,4 +19,8 @@ class PageController extends Controller
     {
         return view('pages/about');
     }
+      public function blog()
+    {
+        return view('pages/blog');
+    }
 }
