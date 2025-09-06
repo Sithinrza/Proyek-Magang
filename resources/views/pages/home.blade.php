@@ -198,7 +198,7 @@
                 </div>
 
                 <!-- Card 3 -->
-                <div class="group w-96 shadow-none flex flex-col h-full">
+                <div class="group w-96 flex flex-col h-full">
                     <div class="card-bg ">
                         <figure class="px-10 pt-10">
                         <img
