@@ -23,4 +23,7 @@ class PageController extends Controller
     {
         return view('pages/blog');
     }
+    public function service2(){
+        return view('pages/service2');
+    }
 }

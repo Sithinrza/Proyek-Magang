@@ -7,12 +7,12 @@
 @plugin "daisyui";
 
 .btn-vio{
-    @apply bg-violet-800 hover:bg-violet-700
+    @apply bg-violet-800 hover:bg-violet-700 text-white
 }
 
 .card-bg{
-    @apply p-8 rounded-2xl shadow-lg flex flex-col items-center text-center 
-    hover:bg-violet-500 hover:shadow-2xl hover:-translate-y-2 
+    @apply p-8 rounded-2xl shadow-lg flex flex-col items-center text-center
+    hover:bg-violet-500 hover:shadow-2xl hover:-translate-y-2
     hover:scale-105 transition duration-300 ease-in-out h-full
 }
 
