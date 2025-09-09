@@ -149,6 +149,8 @@
         </div>
     </section>
 
+    {{-- OUR PROJECT --}}
+
     <section class="px-10 pt-10 ">
         <div class="text-center mb-10">
             <h1 class="font-bold text-3xl sm:text-4xl text-gray-800">OUR PROJECT</h1>

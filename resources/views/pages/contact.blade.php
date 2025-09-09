@@ -3,13 +3,12 @@
 @section('content')
 
  <div class="relative bg-cover bg-center h-96 flex items-center" style="background-image: url('https://digitaliz.net/images/contact-us-banner.png');">
-        <div class="absolute inset-0 bg-black opacity-30"></div>
+    <div class="absolute inset-0 bg-black opacity-30"></div>
         <div class="container mx-auto px-6 relative z-10 text-white">
             <h1 class="text-5xl font-bold mb-4">Contact</h1>
             <p class="text-2xl max-w-lg">Write us a few words about your project and we'll prepare a proposal for you within 24 hours.</p>
         </div>
     </div>
-    
     <div class="bg-white form-section-wrapper">
         <div class="container mx-auto px-6 py-16">
             <div class="grid lg:grid-cols-3 gap-8 animate-on-scroll">
@@ -104,7 +103,6 @@
             </div>
         </div>
     </div>
-
     <div class="bg-white pt-16 pb-48">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold text-gray-800 mb-2">Our Customers</h2>
@@ -118,6 +116,6 @@
             </div>
         </div>
     </div>
+</div>
 
-    @endsection
-    
+@endsection

@@ -27,4 +27,7 @@ class PageController extends Controller
     {
         return view('pages/service1');
     }
+    public function service2(){
+        return view('pages/service2');
+    }
 }
