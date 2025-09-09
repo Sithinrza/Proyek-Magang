@@ -26,37 +26,3 @@
 }
 
 
- /* Animasi scroll standar dari KANAN ke KIRI */
-        @keyframes scroll-left {
-            from {
-                transform: translateX(0);
-            }
-            to {
-                transform: translateX(-50%);
-            }
-        }
-
-        .animate-scroll-right {
-            animation: scroll-left 5s linear infinite reverse;
-        }
-        .animate-scroll-left {
-            animation: scroll-left 5s linear infinite;
-        }
-
-          @keyframes fade-in-up {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        .animate-on-scroll {
-            animation: fade-in-up linear;
-
-            animation-timeline: scroll(root);
-
-            animation-range: entry 0% cover 30%;
-        }

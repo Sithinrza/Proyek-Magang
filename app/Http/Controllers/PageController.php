@@ -30,4 +30,7 @@ class PageController extends Controller
     public function service2(){
         return view('pages/service2');
     }
+    public function service3(){
+        return view('pages/service3');
+    }
 }
