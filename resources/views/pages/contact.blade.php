@@ -39,15 +39,15 @@
                             <label class="block text-sm font-medium text-gray-700 mb-2">Choose a cooperation model</label>
                             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                                 <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
-                                    <img src="https://img.icons8.com/nolan/64/project.png" alt="Project Based Icon" class="mx-auto h-16 w-16 mb-2">
+                                    <img src="https://digitaliz.net/icons/icon-8.png" alt="Project Based Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Project Based</p>
                                 </div>
                                 <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
-                                    <img src="https://img.icons8.com/nolan/64/briefcase.png" alt="Dedicated Team Icon" class="mx-auto h-16 w-16 mb-2">
+                                    <img src="https://digitaliz.net/icons/icon-9.png" alt="Dedicated Team Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Dedicated Team</p>
                                 </div>
                                 <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
-                                    <img src="https://img.icons8.com/nolan/64/target.png" alt="Custom Icon" class="mx-auto h-16 w-16 mb-2">
+                                    <img src="https://digitaliz.net/icons/icon-10.png" alt="Custom Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Custom</p>
                                 </div>
                             </div>
