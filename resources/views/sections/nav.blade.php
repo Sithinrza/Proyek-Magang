@@ -50,7 +50,7 @@
         <details>
           <summary>Service</summary>
           <ul class="bg-white p-2">
-            <li><a>Digital Platform Development</a></li>
+            <li><a href="{{ route('service1') }}">Digital Platform Development</a></li>
             <li><a href="{{ route('service2') }}">Creative Content</a></li>
             <li><a>Digital Marketing</a></li>
           </ul>

@@ -13,7 +13,7 @@
     </section>
 
     <section class="py-16 px-5">
-        <div class="container mx-auto max-w-5xl"> 
+        <div class="container mx-auto max-w-5xl" data-aos="fade-up"> 
             <div class="bg-white p-8 rounded-2xl shadow-lg">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
                     <div>
@@ -24,10 +24,10 @@
                         />
                     </div>
                     <div>
-                        <h1 class="text-5xl lg:text-4xl font-bold text-indigo-900 leading-tight">
+                        <h1 class= "text-5xl lg:text-4xl font-bold text-indigo-900 leading-tight" data-aos="fade-up">
                             Percayakan pembuatan Platform Digital anda pada kami
                         </h1>
-                        <p class="mt-6 mb-18 text-gray-600">
+                        <p class="mt-6 mb-18 text-gray-600" data-aos="fade-up">
                             Digital Platform Development adalah jasa yang kami tawarkan untuk membantu bisnis Anda membangun keberadaan online 
                             mereka melalui pembuatan website dan aplikasi mobile yang inovatif dan sesuai dengan kebutuhan bisnis Anda. 
                             Kami menggabungkan desain yang menarik dengan fungsionalitas yang optimal untuk memberikan pengalaman pengguna yang terbaik 
@@ -41,15 +41,16 @@
             </div>
         </div>
     </section>
+    
 
     <section class="py-16 px-4 bg-gray-50">
-        <div class="container mx-auto max-w-6xl">
+        <div class="container mx-auto max-w-6xl" data-aos="fade-up-down">
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-indigo-900">Jasa Yang Kami Sediakan</h2>
-                <p class="mt-2 text-lg text-violet-800">Temukan jasa yang tepat untuk kebutuhan anda</p>
+                <h2 class="text-4xl font-bold text-indigo-900" data-aos="fade-up">Jasa Yang Kami Sediakan</h2>
+                <p class="mt-2 text-lg text-violet-800" data-aos="fade-up">Temukan jasa yang tepat untuk kebutuhan anda</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
                 <div class="bg-white p-6 rounded-2xl shadow-md flex items-center space-x-4 hover:shadow-lg transition-shadow duration-300">
                     <img src="https://digitaliz.net/icons/icon-4.png" alt="Icon Website Profile" class="w-16 h-16">
                     <span class="font-semibold text-gray-700 text-lg">Pembuatan Website Profile</span>
@@ -82,9 +83,8 @@
                 <p class="mt-2 text-lg text-violet-800">Sesuaikan dengan kebutuhan perusahaan Anda</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center flex flex-col">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-down">
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center flex flex-col" data-aos="fade-down">
                     <img src="https://digitaliz.net/icons/icon-8.png" alt="Icon Project Based" class="w-24 h-24 mx-auto mb-6">
                     <h3 class="text-2xl font-bold text-indigo-950 mb-4">Project Based</h3>
                     <p class="text-gray-600 text-sm mb-4 flex-grow">
@@ -95,7 +95,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center flex flex-col">
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center flex flex-col" data-aos="fade-down">
                     <img src="https://digitaliz.net/icons/icon-9.png" alt="Icon Dedicated Team" class="w-24 h-24 mx-auto mb-6">
                     <h3 class="text-2xl font-bold text-indigo-950 mb-4">Dedicated Team</h3>
                     <p class="text-gray-600 text-sm mb-4 flex-grow">
@@ -124,10 +124,10 @@
     </section>
 
     <section class="py-16 px-5 bg-gray-50">
-        <div class="container mx-auto max-w-5xl">
+        <div class="container mx-auto max-w-5xl" data-aos="zoom-in-up">
             <div class="bg-white p-8 lg:p-12 rounded-2xl shadow-lg">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <div>
+                    <div data-aos="zoom-in-up">
                         <h1 class="text-4xl lg:text-3xl font-bold text-indigo-900 leading-tight">
                             Kami Hadir dengan Inovasi Maksimal
                         </h1>
@@ -136,7 +136,7 @@
                             Oleh karena itu, tim kami terdiri dari para ahli pengembang dan desainer yang terampil dan berpengalaman dalam membangun 
                             website dan aplikasi mobile yang unik dan kreatif untuk setiap klien kami.
                         </p>
-                        <button class="btn-vio text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                        <button class="btn-vio text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors" data-aos="zoom-in-up">
                             Hubungi Kami
                         </button>
                     </div>
@@ -153,12 +153,12 @@
     </section>
 
     <section class="py-20 px-8">
-        <div class="container mx-auto max-w-6xl">
+        <div class="container mx-auto max-w-6xl" data-aos="fade-up">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-indigo-900">Mengapa Harus Digitaliz</h2>
-                <p class="mt-2 text-lg text-violet-800">Karena sesuai dengan kebutuhan Anda</p>
+                <p class="mt-2 text-lg text-violet-800" data-aos="fade-up">Karena sesuai dengan kebutuhan Anda</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
                 <div class="bg-gray-50 p-8 rounded-2xl text-center flex flex-col items-center hover:shadow-lg transition-shadow duration-300">
                     <img src="https://digitaliz.net/icons/icon-11.png" alt="Icon Pengalaman dan Keahlian" class="w-24 h-24 mb-6">
                     <h3 class="text-2xl font-bold text-indigo-950 mb-4">Pengalaman dan Keahlian</h3>
@@ -185,7 +185,7 @@
     </section>
 
     <section class="py-16 px-4 bg-gray-95">
-        <div class="container mx-auto max-w-6xl">
+        <div class="container mx-auto max-w-6xl" data-aos="fade-up">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="grid grid-cols-4 gap-x-4 gap-y-8">
                     <div class="text-center">
@@ -221,7 +221,7 @@
                         <p class="text-sm font-bold text-gray-500">Tailwind CSS</p>
                     </div>
                 </div>
-                <div class="text-center lg:text-left">
+                <div class="text-center lg:text-left" data-aos="fade-up">
                     <h2 class="text-4xl font-bold text-indigo-950 leading-tight">
                         Selalu dengan <br> Teknologi Terbaru
                     </h2>
@@ -234,7 +234,7 @@
     </section>
 
     <section class="py-20 px-4 ">
-        <div class="container mx-auto max-w-6xl">
+        <div class="container mx-auto max-w-6xl" data-aos="fade-up">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                 <div class="lg:text-left ">
                     <h2 class="text-3xl lg:text-4xl font-bold text-indigo-900 leading-tight">
@@ -245,8 +245,8 @@
                     </p>
                 </div>
                 <div>
-                    <div class="bg-white p-8 rounded-2xl shadow-lg relative mb-8">
-                        <img src="https://digitaliz.net/images/quote.png" alt="Quote Icon" class="absolute top-[-20px] left-8 w-16">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg relative mb-8" data-aos="fade-up">
+                        {{-- <img src="https://digitaliz.net/images/quote.png" alt="Quote Icon" class="absolute top-[-20px] left-8 w-16"> --}}
                         
                         <div class="flex items-start gap-6 pt-8">
                             <p class="text-gray-600 italic flex-grow">
@@ -261,8 +261,8 @@
                         </div>
                     </div>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-lg relative">
-                        <img src="https://digitaliz.net/images/quote.png" alt="Quote Icon" class="absolute top-[-20px] left-8 w-16">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg relative" data-aos="fade-up">
+                        {{-- <img src="https://digitaliz.net/images/quote.png" alt="Quote Icon" class="absolute top-[-20px] left-8 w-16"> --}}
 
                         <div class="flex items-start gap-6 pt-8">
                             <p class="text-gray-600 italic flex-grow">
@@ -283,7 +283,7 @@
     </section>
 
     <section class="py-20 px-4 pb-50 bg-gray-50">
-        <div class="container mx-auto max-w-6xl">
+        <div class="container mx-auto max-w-6xl" data-aos="fade-up">
             <div class="bg-white p-8 lg:p-12 rounded-2xl shadow-lg">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     <div class="lg:pr-8">
@@ -296,25 +296,25 @@
                     </div>
                     <form action="#" method="POST" class="space-y-6">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
+                            <div data-aos="fade-up">
                                 <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
                                 <input type="text" name="first-name" id="first-name" placeholder="First name" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 placeholder:text-gray-400 text-gray-900">
                             </div>
-                            <div>
+                            <div data-aos="fade-up">
                                 <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
                                 <input type="text" name="last-name" id="last-name" placeholder="Last name" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 placeholder:text-gray-400 text-gray-900">
                             </div>
                         </div>
-                        <div>
+                        <div data-aos="fade-up">
                             <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                             <input type="email" name="email" id="email" placeholder="your@company.com" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 placeholder:text-gray-400 text-gray-900">
                         </div>
-                        <div>
+                        <div data-aos="fade-up">
                             <label for="phone-number" class="block text-sm font-medium text-gray-700">Phone Number</label>
                             <input type="tel" name="phone-number" id="phone-number" placeholder="+62 1234 5678 910" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 placeholder:text-gray-400 text-gray-900">
                         </div>
 
-                        <div>
+                        <div data-aos="fade-up">
                             <label class="block text-sm font-medium text-gray-700 mb-2">Choose a cooperation model</label>
                             <div class="grid grid-cols-3 gap-4">
                                <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
@@ -331,7 +331,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div data-aos="fade-up">
                             <label for="message" class="block text-sm font-medium text-gray-700">How can we help?</label>
                             <textarea id="message" name="message" rows="4" placeholder="Tell us a little about the project..." class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 placeholder:text-gray-400 text-gray-900"></textarea>
                         </div>
