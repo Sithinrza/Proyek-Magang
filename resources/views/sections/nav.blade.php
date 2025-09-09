@@ -52,7 +52,7 @@
           <ul class="bg-white p-2">
             <li><a>Digital Platform Development</a></li>
             <li><a href="{{ route('service2') }}">Creative Content</a></li>
-            <li><a>Digital Marketing</a></li>
+            <li><a href="{{ route('service3') }}">Digital Marketing</a></li>
           </ul>
         </details>
       </li>
@@ -62,6 +62,6 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn btn-vio">Hubungi </a>
+    <a class="btn btn-vio">Hubungi Kami </a>
   </div>
 </div>

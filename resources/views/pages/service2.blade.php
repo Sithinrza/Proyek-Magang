@@ -15,39 +15,45 @@
 
 </section>
 
-<section class="px-10 pt-10 p-20">
+<section class="my-20">
   <div class="hero min-h-screen">
     <div class="hero-content flex-col lg:flex-row items-start bg-gray-100 rounded-2xl">
-      <img
-        src="https://digitaliz.net/images/peoples-3.png"
-        class="w-full max-w-lg lg:max-w-xl rounded-lg shadow-2xl"
-      />
+      <img src="https://digitaliz.net/images/peoples-3.png" class="w-full max-w-lg lg:max-w-xl rounded-lg shadow-2xl" data-aos="fade-up"/>
       <div class="lg:ml-10">
-        <h1 class="text-4xl font-bold text-indigo-900">Percayakan pembuatan Creative Content anda pada kami</h1>
-        <p class="py-6 text-xl font-sans text-gray-500">
+        <h1 class="text-4xl font-bold text-indigo-900" data-aos="fade-up">Percayakan pembuatan Creative Content anda pada kami</h1>
+        <p class="py-6 text-xl font-sans text-gray-500" data-aos="fade-up"  data-aos-duration="500">
           Digital Platform Development adalah jasa yang kami tawarkan untuk membantu bisnis Anda membangun keberadaan online mereka melalui pembuatan website dan aplikasi mobile yang inovatif dan sesuai dengan kebutuhan bisnis Anda. Kami menggabungkan desain yang menarik
           dengan fungsionalitas yang optimal untuk memberikan pengalaman pengguna yang terbaik dan meningkatkan interaksi dengan pelanggan Anda.
         </p>
-        <button class="btn btn-vio font-bold px-8 rounded-lg">Hubungi Kami</button>
+        <button class="btn btn-vio font-bold px-8 rounded-lg" data-aos="fade-up">Hubungi Kami</button>
       </div>
     </div>
   </div>
 </section>
 
-<section class="p-10">
+<section class="my-20 max-h-min">
     <div class="text-center">
-        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800 ">Jasa Yang Kami Sediakan</h1>
-        <p class="text-violet-400 pb-10 text-2xl">Temukan Jasa Kebutuhan Anda</p>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center ">
-            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5">
+        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800" data-aos="fade-up">Jasa Yang Kami Sediakan</h1>
+        <p class="text-violet-400 pb-10 text-2xl" data-aos="fade-up" data-aos-delay="100">
+            Temukan Jasa Kebutuhan Anda
+        </p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center">
+
+            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5"
+                 data-aos="zoom-in" data-aos-delay="200">
                 <img src="https://digitaliz.net/icons/icon-14.png" alt="">
                 <h1>Profesional Fotografi</h1>
             </div>
-            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5">
+
+            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5"
+                 data-aos="zoom-in" data-aos-delay="400">
                 <img src="https://digitaliz.net/icons/icon-14.png" alt="">
                 <h1>Profesional Vidiografi</h1>
             </div>
-            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5">
+
+            <div class="flex items-center gap-2 bg-gray-100 rounded-2xl p-5"
+                 data-aos="zoom-in" data-aos-delay="600">
                 <img src="https://digitaliz.net/icons/icon-14.png" alt="">
                 <h1>Profesional Desain Grafis</h1>
             </div>
@@ -56,20 +62,19 @@
     </div>
 </section>
 
+
 {{-- Skema Kerjasama --}}
-<section class="py-16 px-4">
+<section class="py-16 px-4 pt-20">
     <div class="max-w-7xl mx-auto">
-        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800 text-center">Skema Kerjasama</h1>
-            <p class="text-purple-500 font-semibold text-center pb-15">Sesuaikan dengan Kebutuhan Perusahaan Anda</p>
+        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800 text-center" data-aos="fade-up">Skema Kerjasama</h1>
+            <p class="text-violet-400 pb-10 text-2xl text-center" data-aos="fade-up" >Sesuaikan dengan Kebutuhan Perusahaan Anda</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
             <!-- Card 1 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100" data-aos="zoom-in-up" data-aos-delay="200">
                 <div class="card ">
                     <figure class="px-10 pt-10">
                     <img
-                        src="https://digitaliz.net/icons/icon-8.png"
-                        alt="Shoes"
-                        class="rounded-xl" />
+                        src="https://digitaliz.net/icons/icon-8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h3 class="mt-6 text-2xl font-bold text-indigo-900">Project Based</h3>
@@ -85,7 +90,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100"  data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="card ">
                     <figure class="px-10 pt-10">
                     <img
@@ -107,7 +112,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100"  data-aos="zoom-in-up" data-aos-delay="600">
                 <div class="card ">
                     <figure class="px-10 pt-10">
                     <img
@@ -139,18 +144,18 @@
             <!-- order itu urutan, misal order-1 itu urutan pertama dst -->
                 <div class="p-8 lg:p-16 flex flex-col justify-center">
                 <div class="order-1 lg:order-2 pb-6">
-                    <h1 class="text-3xl font-bold text-gray-800">Kami Hadir dengan Inovasi Maksimal</h1>
-                    <p class="mt-6 text-gray-600 leading-relaxed">
+                    <h1 class="text-3xl font-bold text-gray-800" data-aos="fade-up">Kami Hadir dengan Inovasi Maksimal</h1>
+                    <p class="mt-6 text-gray-600 leading-relaxed" data-aos="fade-up">
                         Kami memahami betapa pentingnya sebuah website atau aplikasi mobile yang efektif dalam dunia digital saat ini. Oleh karena itu, tim kami terdiri dari para ahli pengembang dan desainer yang terampil dan berpengalaman dalam membangun website dan aplikasi mobile yang unik dan kreatif untuk setiap klien kami.
                     </p>
                 </div>
-                <button class="btn btn-vio order-2 w-35">
+                <button class="btn btn-vio order-2 w-35" data-aos="fade-up">
                     Hubungi Kami
                 </button>
 
                 </div>
             <div class="p-8 lg:p-12 order-1 lg:order-2 flex items-center">
-                <img src="https://digitaliz.net/images/picture-1.png" alt="Project">
+                <img src="https://digitaliz.net/images/picture-1.png" data-aos="fade-up" alt="Project">
             </div>
         </div>
     </div>
@@ -158,17 +163,14 @@
 
 <section class="py-16 px-4">
     <div class="max-w-7xl mx-auto">
-        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800 text-center">Mengapa Harus Digitaliz</h1>
-            <p class="text-purple-500 font-semibold text-center pb-15">Karena Sesuai dengan Kebutuhan Anda</p>
+        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800 text-center" data-aos="fade-up">Mengapa Harus Digitaliz</h1>
+            <p class="text-violet-400 pb-10 text-2xl text-center" data-aos="fade-up" data-aos-delay="400">Karena Sesuai dengan Kebutuhan Anda</p>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
             <!-- Card 1 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl card hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl card hover:bg-gray-100" data-aos="zoom-in-up" data-aos-delay="200">
                 <div class="card hover:bg-gray-100">
                     <figure class="px-10 pt-10">
-                    <img
-                        src="https://digitaliz.net/icons/icon-11.png"
-                        alt="Shoes"
-                        class="rounded-xl" />
+                    <img src="https://digitaliz.net/icons/icon-11.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="mt-6 text-2xl font-bold text-indigo-900">Pengalaman dan Keahlian</h2>
@@ -181,7 +183,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="card ">
                     <figure class="px-10 pt-10">
                     <img
@@ -200,7 +202,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100">
+            <div class="group w-96 shadow-none flex flex-col h-full bg-gray-50 rounded-2xl hover:bg-gray-100" data-aos="zoom-in-up" data-aos-delay="400">
                 <div class="card ">
                     <figure class="px-10 pt-10">
                     <img
@@ -225,9 +227,9 @@
     <section class=" p-10 ">
 
         <div class="bg-white rounded-2xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2 p-10 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 p-10 " data-aos="fade-up">
                 <!-- order itu urutan, misal order-1 itu urutan pertama dst -->
-                <div class="p-8 lg:p-16 flex flex-col order-1 lg:order-1">
+                <div class="p-8 lg:p-16 flex flex-col order-1 lg:order-1" data-aos="fade-up">
                    <h1 class="font-bold text-3xl sm:text-4xl text-gray-800">Our Clients Speak</h1>
                    <h3 class="mt-4 w-90 text-2xl text-gray-600 leading-relaxed font-semibold text-purple-500">
                         <span class="font-bold">Digitaliz</span> have been trusted by many people and companies
@@ -235,7 +237,7 @@
 
                 </div>
 
-                <div class="order-1 lg:order-2">
+                <div class="order-1 lg:order-2" data-aos="fade-up">
                     <div class="bg-white rounded-2xl overflow-hidden shadow-xl mb-10">
                         <div class="grid grid-cols-1 md:grid-cols-2 ">
                             <div class="p-8 flex flex-col justify-center order-2 md:order-1">
@@ -249,7 +251,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-xl ">
+                    <div class="bg-white rounded-2xl overflow-hidden shadow-xl "data-aos="fade-up">
                         <div class="grid grid-cols-1 md:grid-cols-2 ">
                             <div class="p-8 flex flex-col justify-center order-2 md:order-1">
                                 <p class="text-black font-sans">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem repellendus totam fugiat ex! Praesentium enim illum, facere odit officiis excepturi minima magni adipisci nulla minus recusandae necessitatibus nobis numquam repellat consectetur, ab harum reprehenderit dignissimos eaque architecto ratione ad dolore.</p>
@@ -268,37 +270,33 @@
     </section>
 
 <section class="flex justify-center items-center min-h-screen p-4 mb-35 sm:p-10">
-    <!--
-        Container utama diubah menjadi FORM.
-        - flex-col: Bertumpuk di mobile.
-        - lg:flex-row: Berdampingan di layar besar.
-    -->
-    <form class="flex flex-col lg:flex-row gap-8 lg:gap-16 max-w-6xl mx-auto p-6 md:p-10 bg-white rounded-2xl shadow-xl">
+
+    <form class="flex flex-col lg:flex-row gap-8 lg:gap-16 max-w-6xl mx-auto p-6 md:p-10 bg-white rounded-2xl shadow-xl" data-aos="fade-up">
 
         <!-- Kolom Kiri: Teks Baru Anda -->
-        <div class="w-full lg:w-1/3">
-            <h1 class="text-4xl text-indigo-950 font-bold">Contact Us</h1>
-            <h2 class="mt-4 text-gray-600 font-semibold text-xl">
+        <div class="w-full lg:w-1/3" data-aos="fade-up">
+            <h1 class="text-4xl text-indigo-950 font-bold" data-aos="fade-up">Contact Us</h1>
+            <h2 class="mt-4 text-gray-600 font-semibold text-xl" data-aos="fade-up">
                 Write us a few words about your project
                 <span class="text-violet-500">and we’ll prepare a proposal for you within 24 hours.</span>
             </h2>
         </div>
 
         <!-- Kolom Kanan: Form yang Diperbaiki -->
-        <div class="w-full lg:w-2/3">
+        <div class="w-full lg:w-2/3" data-aos="fade-up">
             <!-- Input Nama Depan & Belakang dibuat responsif -->
             <div class="flex flex-col sm:flex-row gap-4">
-                <div class="w-full">
+                <div class="w-full" data-aos="fade-up">
                     <label for="first-name" class="font-semibold text-gray-700">First Name</label>
                     <input id="first-name" type="text" placeholder="First Name" class="mt-2 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                 </div>
-                <div class="w-full">
+                <div class="w-full" data-aos="fade-up">
                     <label for="last-name" class="font-semibold text-gray-700">Last Name</label>
                     <input id="last-name" type="text" placeholder="Last Name" class="mt-2 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div class="mt-6" data-aos="fade-up">
                 <label for="email" class="font-semibold text-gray-700">Email</label>
                 <div class="relative mt-2">
                     <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -308,7 +306,7 @@
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div class="mt-6"data-aos="fade-up">
                 <label for="phone" class="font-semibold text-gray-700">Phone Number</label>
                 <div class="relative mt-2">
                      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -318,22 +316,22 @@
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div class="mt-6" data-aos="fade-up">
                 <h3 class="font-semibold text-gray-700">Choose a cooperation model</h3>
                 <div class="flex flex-col sm:flex-row gap-4 mt-2">
-                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200">
+                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200" data-aos="zoom-in-up" data-aos-delay="200">
                         <input type="radio" name="pilihan" class="hidden peer" value="1" />
                         <img src="https://digitaliz.net/icons/icon-8.png" alt="Pilihan 1" class="h-16 w-16 object-contain" />
                         <h6 class="font-semibold text-gray-700">Project Based</h6>
                     </label>
 
-                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200">
+                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200" data-aos="zoom-in-up" data-aos-delay="400">
                         <input type="radio" name="pilihan" class="hidden peer" value="2" />
                         <img src="https://digitaliz.net/icons/icon-9.png" alt="Pilihan 2" class="h-16 w-16 object-contain" />
                         <h6 class="font-semibold text-gray-700">Dedicated Team</h6>
                     </label>
 
-                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200">
+                    <label class="flex flex-col text-center items-center gap-2 cursor-pointer border-2 border-gray-200 rounded-2xl p-4 w-full has-[:checked]:border-indigo-500 has-[:checked]:ring-2 has-[:checked]:ring-indigo-200" data-aos="zoom-in-up" data-aos-delay="600">
                         <input type="radio" name="pilihan" class="hidden peer" value="3" />
                         <img src="https://digitaliz.net/icons/icon-10.png" alt="Pilihan 3" class="h-16 w-16 object-contain" />
                         <h6 class="font-semibold text-gray-700">Custom</h6>
@@ -341,11 +339,11 @@
                 </div>
             </div>
 
-            <div class="mt-6">
+            <div class="mt-6" data-aos="fade-up">
                 <label for="message" class="font-semibold text-gray-700">How can we help?</label>
-                <textarea id="message" class="mt-2 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" rows="4" placeholder="Tell us a little about the project..."></textarea>
+                <textarea id="message" class="mt-2 w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" rows="4" placeholder="Tell us a little about the project..." data-aos="fade-up"></textarea>
             </div>
-            <button class="btn btn-vio w-full">Send</button>
+            <button class="btn btn-vio w-full" data-aos="fade-up">Send</button>
         </div>
     </form>
 </section>
