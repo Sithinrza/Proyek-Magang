@@ -11,7 +11,7 @@
             <div class="grid md:grid-cols-2 gap-8 items-center w-full">
                 <div class="text-center md:text-left">
                     <h1 class="text-4xl md:text-5xl font-bold text-violet-950 leading-tight">
-                        Accelerate Your
+                        Accelerate
                     </h1>
                     <p class="mt-4 text-gray-500 text-lg">
                         Digitalisasi bisnis Anda dengan cepat dan mudah bersama kami
