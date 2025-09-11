@@ -1,12 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PagesController;
-
-Route::get('/', function () {
-    return view('pages/home');
-});
+use App\Http\Controllers\PageController;
 
 
+Route::get('/', [PageController::class, 'home'])->name('home');
 
-Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/about', [PageController::class, 'about'])->name('about');
+
+
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+

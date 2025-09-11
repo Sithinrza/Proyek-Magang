@@ -35,7 +35,7 @@
           </ul>
         </li>
         <li><a>About</a></li>
-        <li><a href="{{ route('contact') }}">Contact</a></li>
+        <li><a href="">Contact</a></li>
         <li><a>Blog</a></li>
       </ul>
     </div>
@@ -45,7 +45,7 @@
   </div>
   <div class="text-black navbar-center hidden lg:flex text-3xl">
     <ul class="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
+      <li><a href="{{ route('home') }}">Home</a></li>
       <li>
         <details>
           <summary>Service</summary>
@@ -56,8 +56,8 @@
           </ul>
         </details>
       </li>
-      <li><a>About</a></li>
-      <li><a>Contact</a></li>
+      <li><a href="{{ route('about') }}">About</a></li>
+      <li><a href="{{ route('contact') }}">Contact</a></li>
       <li><a>Blog</a></li>
     </ul>
   </div>

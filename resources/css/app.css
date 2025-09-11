@@ -6,6 +6,52 @@
 
 @plugin "daisyui";
 
-@utility btn-vio{
+.btn-vio{
     @apply bg-violet-800 hover:bg-violet-700
 }
+
+.card-bg{
+    @apply p-8 rounded-2xl shadow-lg flex flex-col items-center text-center 
+    hover:bg-violet-500 hover:shadow-2xl hover:-translate-y-2 
+    hover:scale-105 transition duration-300 ease-in-out h-full
+}
+
+.btn-primary{
+    @apply items-center gap-2 text-violet-600 font-semibold border-2 border-violet-200 rounded-lg py-2 px-5 bg-white transition-all duration-300 group-hover:bg-violet-600 group-hover:border-white group-hover:text-white
+}
+
+
+ /* Animasi scroll standar dari KANAN ke KIRI */
+        @keyframes scroll-left {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .animate-scroll-right {
+            animation: scroll-left 5s linear infinite reverse;
+        }
+        .animate-scroll-left {
+            animation: scroll-left 5s linear infinite;
+        }
+
+          @keyframes fade-in-up {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-on-scroll {
+            animation: fade-in-up linear;
+
+            animation-timeline: scroll(root);
+
+            animation-range: entry 0% cover 30%;
+        }
