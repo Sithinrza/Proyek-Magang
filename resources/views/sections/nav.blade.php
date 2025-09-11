@@ -50,15 +50,15 @@
         <details>
           <summary>Service</summary>
           <ul class="bg-white p-2">
-            <li><a>Digital Platform Development</a></li>
-            <li><a>Creative Content</a></li>
-            <li><a>Digital Marketing</a></li>
+            <li><a href="{{ route('service1') }}">Digital Platform Development</a></li>
+            <li><a href="{{ route('service2') }}">Creative Content</a></li>
+            <li><a href="{{ route('service3') }}">Digital Marketing</a></li>
           </ul>
         </details>
       </li>
       <li><a href="{{ route('about') }}">About</a></li>
       <li><a href="{{ route('contact') }}">Contact</a></li>
-      <li><a>Blog</a></li>
+      <li><a href="{{ route('blog') }}">Blog</a></li>
     </ul>
   </div>
   <div class="navbar-end">
