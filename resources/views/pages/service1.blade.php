@@ -108,14 +108,14 @@
 
                 <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 text-center flex flex-col justify-between">
                     <div>
-                        <img src="https://digitaliz.net/icons/icon-10.png" alt="Icon Custom" class="w-24 h-24 mx-auto mb-6">
+                        <img src="https://digitaliz.net/icons/icon-10.png" alt="Icon custom" class="w-24 h-24 mx-auto mb-6">
                         <h3 class="text-2xl font-bold text-indigo-950 mb-4">Custom</h3>
                         <p class="text-gray-600 text-sm mb-8">
                             Pilih skema kerjasama sesuai dengan kebutuhan perusahaan Anda.
                         </p>
                     </div>
                     <button class="btn-vio text-white font-semibold px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors w-full">
-                        Hubungi Kami
+                        Hubungi Kami 
                     </button>
                 </div>
 
