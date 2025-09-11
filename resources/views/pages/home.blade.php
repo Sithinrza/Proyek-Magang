@@ -264,7 +264,6 @@
                    <h3 class="mt-4 w-90 text-2xl text-gray-600 leading-relaxed font-semibold text-purple-500">
                         <span class="font-bold">Digitaliz</span> have been trusted by many people and companies
                     </h3>
-
                 </div>
 
                 <div class="order-1 lg:order-2">
@@ -292,7 +291,6 @@
                                 <img src="https://shanibacreative.com/wp-content/uploads/2020/06/membuat-foto-profil-yang-bagus.jpg" alt="HRP" class="h-50 w-50 mx-auto rounded-full">
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
