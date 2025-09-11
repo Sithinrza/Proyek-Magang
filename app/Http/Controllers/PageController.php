@@ -19,4 +19,18 @@ class PageController extends Controller
     {
         return view('pages/about');
     }
+      public function blog()
+    {
+        return view('pages/blog');
+    }
+      public function service1()
+    {
+        return view('pages/service1');
+    }
+    public function service2(){
+        return view('pages/service2');
+    }
+    public function service3(){
+        return view('pages/service3');
+    }
 }

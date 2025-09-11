@@ -7,18 +7,25 @@
 @plugin "daisyui";
 
 .btn-vio{
-    @apply bg-violet-800 hover:bg-violet-700
+    @apply bg-violet-800 hover:bg-violet-700 text-white
 }
 
 .card-bg{
-    @apply p-8 rounded-2xl shadow-lg flex flex-col items-center text-center 
-    hover:bg-violet-500 hover:shadow-2xl hover:-translate-y-2 
+    @apply p-8 rounded-2xl shadow-lg flex flex-col items-center text-center
+    hover:bg-violet-500 hover:shadow-2xl hover:-translate-y-2
     hover:scale-105 transition duration-300 ease-in-out h-full
 }
 
 .btn-primary{
     @apply items-center gap-2 text-violet-600 font-semibold border-2 border-violet-200 rounded-lg py-2 px-5 bg-white transition-all duration-300 group-hover:bg-violet-600 group-hover:border-white group-hover:text-white
 }
+
+.cooperation-card:focus-within, .cooperation-card.selected {
+    border-color: #4f46e5; /* indigo-600 */
+    box-shadow: 0 0 0 2px #a5b4fc; /* indigo-200 */
+}
+
+
 
 
  /* Animasi scroll standar dari KANAN ke KIRI */
