@@ -104,48 +104,48 @@
 </section>
 
 <section class="p-10 md:p-20" data-aos="fade-up">
-    <div class="text-center mb-10">
-        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800" data-aos="fade-up">Meet Our Expert Team</h1>
-        <p class="mt-1 text-purple-500 text-2xl" data-aos="fade-up">Karena Sesuai dengan Kebutuhan Anda</p>
+    <div class="text-center">
+        <h1 class="font-bold text-3xl sm:text-4xl text-gray-800">Meet Our Expert Team</h1>
+        <p class="mt-1 text-purple-500 text-2xl">Karena Sesuai dengan Kebutuhan Anda</p>
     </div>
-    <div class="bg-white rounded-2xl overflow-hidden" data-aos="fade-up">
-        <div class="grid grid-cols-1 md:grid-cols-3">
-            <!-- order itu urutan, misal order-1 itu urutan pertama dst -->
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/hengky-dwiyan.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">Hengki Dwiyan Hermawan</h2>
-                <p class="mt-1 text-gray-600">Head of Digitaliz</p>
-            </div>
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/junaidi.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">Junaidi Abdul Rahman</h2>
-                <p class="mt-1 text-gray-600">Head of Web Development</p>
+
+    <!-- Tombol buka modal -->
+    {{-- Ganti tombol "+ Add Member" Anda dari <button> menjadi <a> --}}
+    <a href="{{ route('team.create') }}" class="btn btn-primary">+ Add Member</a>
+
+
+    {{-- Ganti keseluruhan bagian @foreach Anda dengan ini --}}
+    <div class="rounded-2xl overflow-hidden mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            @foreach ($teams as $team)
+                <div class="p-6 flex flex-col items-center text-center shadow rounded-xl" data-aos="fade-up">
+                    <img src="{{ $team->getImage()}}"
+                        alt="{{ $team->name }}"
+                        class="object-cover mb-4">
+                    <h2 class="text-xl font-bold text-gray-800">{{ $team->name }}</h2>
+                    <p class="text-gray-600">{{ $team->position }}</p>
+
+                    <div class="mt-4 flex space-x-2">
+                        {{-- TOMBOL EDIT SEKARANG MENJADI LINK KE HALAMAN EDIT --}}
+                        <a href="{{ route('team.edit', $team->id) }}" class="btn btn-sm btn-warning ">
+                            Edit
+                        </a>
+                        {{-- TOMBOL DELETE SEKARANG MENJADI FORM KECIL --}}
+                         <form action="{{ route('team.destroy', $team->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this member?');">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-sm btn-error">Delete</button>
+                        </form>
+
+                    </div>
                 </div>
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/qizhaya.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">Qizhaya Halima Tusshafna</h2>
-                <p class="mt-1 text-gray-600">Head of UI UX Design</p>
-            </div>
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/syaifuddin.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">A. Syaifuddin</h2>
-                <p class="mt-1 text-gray-600">Head of Photo & Videography</p>
-            </div>
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/arisa.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">Muhammad Arisa</h2>
-                <p class="mt-1 text-gray-600">Head of Content Production</p>
-            </div>
-            <div class="p-8 lg:p-12 order-1 lg:order-2 flex justify-center items-center flex-col" data-aos="fade-up">
-                <img src="https://digitaliz.net/images/alda.png" alt="Project" class="h-auto w-full">
-                <h2 class="text-2xl font-bold text-gray-800 pt-5">Alda Navira</h2>
-                <p class="mt-1 text-gray-600">Project Manager</p>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
 
-<section class="p-10 md:p-20 mb-30 min-h-screen  flex flex-col justify-center" data-aos="fade-up">
+
+<section class="md:p-20 min-h-screen flex flex-col justify-center" data-aos="fade-up">
     <div class="text-center mb-10">
         <h1 class="font-bold text-3xl sm:text-4xl text-gray-800" data-aos="fade-up">OUR COSTUMERS</h1>
         <p class="text-purple-500 font-semibold" data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui provident earum repudiandae fugit unde ex rem similique adipisci aut</p>
