@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
-
+use App\Http\Controllers\ContactFormController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 
@@ -17,3 +17,5 @@ Route::get('/service1', [PageController::class, 'service1'])->name('service1');
 Route::get('/service2', [PageController::class, 'service2'])->name('service2');
 
 Route::get('/service3', [PageController::class, 'service3'])->name('service3');
+
+Route::post('/contact', [ContactFormController::class, 'store'])->name('contact.store');

@@ -11,41 +11,50 @@
     </div>
     <div class="bg-white form-section-wrapper">
         <div class="container mx-auto px-6 py-16">
+             @if(session('success'))
+                <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg relative mb-8" role="alert">
+                    <strong class="font-bold">Berhasil!</strong>
+                    <span class="block sm:inline">{{ session('success') }}</span>
+                </div>
+            @endif
             <div class="grid lg:grid-cols-3 gap-8" data-aos="fade-up">
                 <div class="lg:col-span-2 p-8 bg-white rounded-lg shadow-2xl" data-aos="fade-up">
                     <h2 class="text-3xl font-bold text-gray-800 mb-2">Isi Form</h2>
                     <p class="text-gray-600 mb-8">Isi formulir di bawah ini untuk melanjutkan</p>
-                    <form action="#" method="POST" class="space-y-6">
+                    <form action="{{ route('contact.store') }}" method="POST" class="space-y-6">
+                        @csrf
+
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6" data-aos="fade-up">
                             <div>
-                                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1" data-aos="fade-up">First name</label>
-                                <input type="text" id="first-name" placeholder="First name" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First name</label>
+                                <input type="text" id="first-name" name="first_name" placeholder="First name" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900">
                             </div>
                             <div>
                                 <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last name</label>
-                                <input type="text" id="last-name" placeholder="Last name" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                                <input type="text" id="last-name" name="last_name" placeholder="Last name" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900">
                             </div>
                         </div>
                         <div data-aos="fade-up">
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                            <input type="email" id="email" placeholder="your@company.com" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                            <input type="email" id="email" name="email" placeholder="your@company.com" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900">
                         </div>
                         <div data-aos="fade-up">
                             <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
-                            <input type="tel" id="phone" placeholder="+62 123 4567 8910" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent">
+                            <input type="tel" id="phone" name="phone_number" placeholder="+62 123 4567 8910" class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900">
                         </div>
-                        <div data-aos="fade-up">
+                        <div data-aos="fade-up" x-data="{ selectedModel: 'Project Based' }">
                             <label class="block text-sm font-medium text-gray-700 mb-2">Choose a cooperation model</label>
+                            <input type="hidden" name="cooperation_model" :value="selectedModel">
                             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                                <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
+                                <div x-on:click="selectedModel = 'Project Based'" :class="selectedModel === 'Project Based' ? 'border-indigo-600 bg-indigo-50' : 'border-gray-200 bg-gray-50 hover:border-indigo-400'" class="cursor-pointer border-2 rounded-lg p-4 text-center transition">
                                     <img src="https://digitaliz.net/icons/icon-8.png" alt="Project Based Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Project Based</p>
                                 </div>
-                                <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
+                                <div x-on:click="selectedModel = 'Dedicated Team'" :class="selectedModel === 'Dedicated Team' ? 'border-indigo-600 bg-indigo-50' : 'border-gray-200 bg-gray-50 hover:border-indigo-400'" class="cursor-pointer border-2 rounded-lg p-4 text-center transition">
                                     <img src="https://digitaliz.net/icons/icon-9.png" alt="Dedicated Team Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Dedicated Team</p>
                                 </div>
-                                <div tabindex="0" class="cooperation-card cursor-pointer border-2 bg-gray-50 border-gray-200 rounded-lg p-4 text-center transition">
+                                <div x-on:click="selectedModel = 'Custom'" :class="selectedModel === 'Custom' ? 'border-indigo-600 bg-indigo-50' : 'border-gray-200 bg-gray-50 hover:border-indigo-400'" class="cursor-pointer border-2 rounded-lg p-4 text-center transition">
                                     <img src="https://digitaliz.net/icons/icon-10.png" alt="Custom Icon" class="mx-auto h-16 w-16 mb-2">
                                     <p class="font-semibold text-gray-800">Custom</p>
                                 </div>
@@ -53,10 +62,10 @@
                         </div>
                         <div data-aos="fade-up">
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-1">How can we help?</label>
-                            <textarea id="message" rows="4" placeholder="Tell us a little about the project..." class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent"></textarea>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us a little about the project..." class="w-full p-3 bg-gray-50 border border-gray-200 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900"></textarea>
                         </div>
-                        <div data-aos="fade-up">
-                            <button type="submit" class="w-full btn-vio text-white font-bold py-3 px-6 rounded-lg hover:bg-violet-800 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                        <div>
+                            <button type="submit" class="w-full bg-violet-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-violet-800 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
                                 Send Message
                             </button>
                         </div>
