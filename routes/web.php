@@ -18,7 +18,28 @@ Route::get('/service2', [PageController::class, 'service2'])->name('service2');
 
 Route::get('/service3', [PageController::class, 'service3'])->name('service3');
 
-Route::get('/about', [TeamMemberController::class, 'index'])->name('about');
+//Route::get('/about', [TeamMemberController::class, 'index'])->name('about');
 
-Route::resource('team', TeamMemberController::class);
+//Route::resource('team', TeamMemberController::class);
 
+// routes/web.php
+
+Route::get('/admin/dashboard', function () {
+    return view('components.admin.dashboard');
+})->name('admin.dashboard');
+
+
+// Route ini akan mengarahkan URL /admin/team ke method index di TeamMemberController
+Route::resource('/admin/team', TeamMemberController::class)->names('admin.team');
+//Route::get('/admin/team', [TeamMemberController::class, 'index'])->name('admin.team.index');
+
+// Anda juga bisa menggunakan resource controller yang sudah ada
+// Route::resource('/admin/team', TeamMemberController::class)->names('admin.team');
+
+// // routes/web.php
+
+// Route::get('/admin/dashboard', function () {
+//     // Perintah ini akan mencari dan menampilkan file yang sudah Anda pindahkan:
+//     // yaitu di resources/views/admin/dashboard.blade.php
+//     return view('admin.dashboard');
+// });

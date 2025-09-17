@@ -10,12 +10,12 @@ class TeamMemberController extends Controller
     public function index()
     {
         $teams = TeamMember::all();
-        return view('pages.about', compact('teams'));
+        return view('admin.team.index', compact('teams'));
     }
 
     public function create()
     {
-        return view('team.create'); // <- ini buat form tambah
+        return view('admin.team.create'); // <- ini buat form tambah
     }
 
     public function store(Request $request)
@@ -32,12 +32,12 @@ class TeamMemberController extends Controller
             $team->addMediaFromRequest('photo')->toMediaCollection('photos');
         }
 
-        return redirect()->route('team.index')->with('success', 'Anggota berhasil ditambahkan');
+        return redirect()->route('admin.team.index')->with('success', 'Anggota berhasil ditambahkan');
     }
 
     public function edit(TeamMember $team)
     {
-        return view('team.edit', compact('team'));
+        return view('admin.team.edit', compact('team'));
     }
 
     public function update(Request $request, TeamMember $team)
@@ -55,7 +55,7 @@ class TeamMemberController extends Controller
             $team->addMediaFromRequest('photo')->toMediaCollection('photos');
         }
 
-        return redirect()->route('team.index')->with('success', 'Anggota berhasil diperbarui');
+        return redirect()->route('admin.team.index')->with('success', 'Anggota berhasil diperbarui');
     }
 
     public function destroy(TeamMember $team)
@@ -63,6 +63,6 @@ class TeamMemberController extends Controller
         $team->clearMediaCollection('photos');
         $team->delete();
 
-        return redirect()->route('team.index')->with('success', 'Anggota berhasil dihapus');
+        return redirect()->route('admin.team.index')->with('success', 'Anggota berhasil dihapus');
     }
 }

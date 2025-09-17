@@ -14,6 +14,9 @@
 
     <main class="flex-grow pb-56">
         @yield('content')
+
+
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </main>
 
     @include("sections.footer")

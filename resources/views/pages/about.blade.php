@@ -108,12 +108,6 @@
         <h1 class="font-bold text-3xl sm:text-4xl text-gray-800">Meet Our Expert Team</h1>
         <p class="mt-1 text-purple-500 text-2xl">Karena Sesuai dengan Kebutuhan Anda</p>
     </div>
-
-    <!-- Tombol buka modal -->
-    {{-- Ganti tombol "+ Add Member" Anda dari <button> menjadi <a> --}}
-    <a href="{{ route('team.create') }}" class="btn btn-primary">+ Add Member</a>
-
-
     {{-- Ganti keseluruhan bagian @foreach Anda dengan ini --}}
     <div class="rounded-2xl overflow-hidden mt-10">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -121,23 +115,9 @@
                 <div class="p-6 flex flex-col items-center text-center shadow rounded-xl" data-aos="fade-up">
                     <img src="{{ $team->getImage()}}"
                         alt="{{ $team->name }}"
-                        class="object-cover mb-4">
+                        class="object-cover rounded-2xl h-60 w-60 mb-4">
                     <h2 class="text-xl font-bold text-gray-800">{{ $team->name }}</h2>
                     <p class="text-gray-600">{{ $team->position }}</p>
-
-                    <div class="mt-4 flex space-x-2">
-                        {{-- TOMBOL EDIT SEKARANG MENJADI LINK KE HALAMAN EDIT --}}
-                        <a href="{{ route('team.edit', $team->id) }}" class="btn btn-sm btn-warning ">
-                            Edit
-                        </a>
-                        {{-- TOMBOL DELETE SEKARANG MENJADI FORM KECIL --}}
-                         <form action="{{ route('team.destroy', $team->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this member?');">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-sm btn-error">Delete</button>
-                        </form>
-
-                    </div>
                 </div>
             @endforeach
         </div>
