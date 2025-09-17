@@ -256,7 +256,7 @@
 </section>
 
     <!-- home our client -->
-<section class=" p-10 pb-50" data-aos="fade-up">
+<section class="p-10" data-aos="fade-up">
 
     <div class="bg-white rounded-2xl overflow-hidden">
         <div class="grid grid-cols-1 md:grid-cols-2 p-10 ">

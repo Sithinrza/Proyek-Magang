@@ -8,12 +8,15 @@
          @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Document</title>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 flex flex-col min-h-screen">
 
     @include("sections.nav")
 
-    <main>
+    <main class="flex-grow pb-56">
         @yield('content')
+
+
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </main>
 
     @include("sections.footer")
