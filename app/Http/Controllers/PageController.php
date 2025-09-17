@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\TeamMember;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -17,7 +18,10 @@ class PageController extends Controller
 
       public function about()
     {
-        return view('pages/about');
+        $teams = TeamMember::all();
+
+        // 2. Kirim data '$teams' ke dalam view
+        return view('pages.about', compact('teams'));
     }
       public function blog()
     {
