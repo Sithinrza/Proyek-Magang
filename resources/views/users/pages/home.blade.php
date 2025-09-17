@@ -1,10 +1,5 @@
-@extends('users.layouts.app')
 
-@section('content')
-
-
-       <!-- home our project -->
-
+<x-user>
 <section  class="px-10 pt-10" data-aos="zoom-in">
     <div class=" flex-1 rounded-2xl shadow-lg relative pb-24 bg-cover bg-center" style="background-image: url('https://digitaliz.net/images/hero-1.png');" data-aos="zoom-in">
         <div class="p-8 md:p-12 min-h-[400px] flex items-center">
@@ -327,4 +322,6 @@
             });
     </script>
 
-@endsection
+
+</x-user>
+

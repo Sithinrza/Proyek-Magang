@@ -7,30 +7,30 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function home(){
-        return view('pages/home');
+        return view('users/pages/home');
     }
 
       public function contact()
     {
-        return view('pages/contact');
+        return view('users/pages/contact');
     }
 
       public function about()
     {
-        return view('pages/about');
+        return view('users/pages/about');
     }
       public function blog()
     {
-        return view('pages/blog');
+        return view('users/pages/blog');
     }
       public function service1()
     {
-        return view('pages/service1');
+        return view('users/pages/services/service1');
     }
     public function service2(){
-        return view('pages/service2');
+        return view('users/pages/services/service2');
     }
     public function service3(){
-        return view('pages/service3');
+        return view('users/pages/services/service3');
     }
 }

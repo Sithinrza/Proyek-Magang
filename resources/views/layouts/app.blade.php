@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
 
-    @include("sections.nav")
+    {{-- @include("sections.nav") --}}
 
     <main class="flex-grow pb-56">
         @yield('content')
