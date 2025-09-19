@@ -62,6 +62,6 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn btn-vio">Hubungi Kami </a>
+    <a class="btn btn-vio">Hubungi Kami</a>
   </div>
 </div>

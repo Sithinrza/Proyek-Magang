@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
          @vite(['resources/css/app.css', 'resources/js/app.js'])
+         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Document</title>
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen">
