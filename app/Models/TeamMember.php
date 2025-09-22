@@ -16,7 +16,7 @@ class TeamMember extends Model implements HasMedia
     protected $fillable = ['name', 'position'];
 
     public function getImage(){
-        return $this->getFirstMediaUrl('photos');
+        return $this->getFirstMediaUrl('photos') ?? 'https://via.placeholder.com/150';
     }
 
     // public function registerMediaConversions(?Media $media = null): void

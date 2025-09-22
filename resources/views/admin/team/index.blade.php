@@ -31,7 +31,7 @@
                             <td>
                                 <div class="avatar">
                                     <div class="w-12 h-12 rounded-full">
-                                        <img src="{{ $team->getImage() ?: 'https://via.placeholder.com/150' }}" alt="{{ $team->name }}" />
+                                        <img src="{{ $team->getImage() }}" alt="{{ $team->name }}" />
                                     </div>
                                 </div>
                             </td>
@@ -40,7 +40,7 @@
                             <td class="text-right">
                                 <div class="flex justify-end space-x-2">
                                     <a href="{{ route('admin.team.edit', $team->id) }}" class="btn btn-sm btn-outline btn-warning">Edit</a>
-                                    <form action="{{ route('admin.team.destroy', $team->id) }}" method="POST" onsubmit="return confirm('Anda yakin ingin menghapus anggota ini?');">
+                                    <form action="{{ route('admin.team.destroy', $team->id) }}" method="POST" class="delete-form">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-sm btn-outline btn-error">Hapus</button>
