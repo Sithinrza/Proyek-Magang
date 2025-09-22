@@ -27,6 +27,7 @@
                     </div>
 
                     <div class="mt-6 flex justify-end space-x-4">
+                        <a href="{{ route('admin.team.index') }}" class="btn btn-ghost">Batal</a>
                         <button type="submit" class="btn btn-primary">Update Member</button>
                     </div>
                 </form>

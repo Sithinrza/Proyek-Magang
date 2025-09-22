@@ -15,7 +15,7 @@ class TeamMemberController extends Controller
 
     public function create()
     {
-        return view('admin.team.create'); // <- ini buat form tambah
+        return view('admin.team.create');
     }
 
     public function store(Request $request)
@@ -23,7 +23,7 @@ class TeamMemberController extends Controller
         $request->validate([
             'name'     => 'required|string|max:255',
             'position' => 'required|string|max:255',
-            'photo'    => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+            'photo'    => 'nullable|image|mimes:jpg,jpeg|max:2048',
         ]);
 
         $team = TeamMember::create($request->only('name', 'position'));
