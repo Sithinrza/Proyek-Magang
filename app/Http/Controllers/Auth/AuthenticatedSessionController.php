@@ -8,46 +8,51 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthenticatedSessionController extends Controller
 {
+    /**
+     * Display the login view.
+     */
     public function create()
     {
-        return view('auth.login'); // Mengarahkan ke file view yang akan kita buat
+        return view('auth.login');
     }
 
     /**
-     * Menangani percobaan autentikasi.
+     * Handle an incoming authentication request.
      */
     public function store(Request $request)
     {
-        // 1. Validasi input: email wajib diisi dan formatnya email, password wajib diisi.
+        // 1. Validate the form data
         $credentials = $request->validate([
             'email' => ['required', 'email'],
             'password' => ['required'],
         ]);
 
-        // 2. Coba untuk melakukan login
+        // 2. Attempt to authenticate the user
         if (Auth::attempt($credentials)) {
-            // 3. Jika berhasil, regenerate session untuk keamanan
+            // If authentication is successful, regenerate the session and redirect
             $request->session()->regenerate();
 
-            // 4. Redirect ke halaman yang dituju setelah login (misal: /dashboard)
             return redirect()->intended('/admin/dashboard');
         }
 
-        // 5. Jika gagal, kembali ke halaman login dengan pesan error
+        // 5. If authentication fails, redirect back with an error
         return back()->withErrors([
             'email' => 'The provided credentials do not match our records.',
         ])->onlyInput('email');
     }
 
     /**
-     * Logout pengguna.
+     * Destroy an authenticated session (logout).
      */
     public function destroy(Request $request)
     {
         Auth::logout();
+
         $request->session()->invalidate();
+
         $request->session()->regenerateToken();
 
-        return redirect('/'); // Redirect ke homepage setelah logout
+        return redirect('/login');
     }
 }
+
