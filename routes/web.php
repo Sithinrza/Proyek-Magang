@@ -13,6 +13,7 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController;
 
 // Controller untuk Area Admin
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Auth\OtpVerificationController;
 use App\Http\Controllers\TeamMemberController;
 
 // Untuk testing email
@@ -81,4 +82,7 @@ Route::middleware(['auth', 'verified'])->prefix('admin')->name('admin.')->group(
 // Jangan lupa kembalikan ke POST untuk production karena lebih aman.
 Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout')->middleware('auth');
 
+Route::get('/otp/verify', [OtpVerificationController::class, 'showVerificationForm'])->name('otp.verification');
+Route::post('/otp/verify', [OtpVerificationController::class, 'verify'])->name('otp.verify');
 
+Route::post('/otp/resend', [OtpVerificationController::class, 'resend'])->middleware('throttle:6,1')->name('otp.resend');
